@@ -1,0 +1,56 @@
+body {
+    color: black;
+    background: #fefefe;
+}
+.mainHeader {
+    color: rgb(148, 105, 204);
+    font-size: 18px;
+}
+
+.sectionHeader {
+    color: #1460AA;
+    font-size: 32px;
+}
+
+.sectionDescription {
+    color: rgba(128, 122, 122, 0.979);
+}
+.cloudHeader {
+    color: #1460AA;
+    font-size: 32px;
+}
+
+.cloudDetailsHeader {
+    color: rgba(65, 62, 62, 0.801);
+    font-size: 22px;
+    float: left;
+}
+
+.cloudDescription {
+    color: rgba(133, 127, 127, 0.979);
+}
+
+.paymentPlan {
+    color: #1460AA;
+    font-size: 32px;
+}
+
+.paymentPlanHeader {
+    color: rgba(65, 62, 62, 0.801);
+    font-size: 22px;
+}
+
+.paymentPlanDescription {
+    color: rgba(133, 127, 127, 0.979);
+}
+
+.processGuide {
+    color: #1460AA;
+    font-size: 32px;
+}
+
+.processGuideDetails {
+    color: rgba(65, 62, 62, 0.801);
+    font-size: 22px;
+    float:left;
+}
