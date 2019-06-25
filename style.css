@@ -1,33 +1,74 @@
 body {
     color: black;
-    background: #f0ecf0;
+    background: #f1eeee;
 }
-.mainHeader {
+
+.main {
+    margin: 32px auto;
+    max-width: 700px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.main__Header {
     color: rgb(148, 105, 204);
-    font-size: 18px;
+    font-size: 25px;
+    text-align: center;
 }
 
-.sectionHeader {
+.about {
+
+}
+
+.about__header {
     color: #1460AA;
     font-size: 32px;
 }
 
-.sectionDescription {
-    color: rgba(128, 122, 122, 0.979);
+.about__paragraph {
+    color: rgba(117, 112, 112, 0.979);
+    font-size: 16px;
+    padding-left: 5px;
+    text-align: center;
 }
-.cloudHeader {
+
+.about__link {
+
+}
+
+.cloud {
+    clear: both;
+}
+
+.cloud__header {
+    clear: left;
     color: #1460AA;
     font-size: 32px;
 }
 
-.cloudDetailsHeader {
+.details {
+    
+}
+
+.details__title {
     color: rgba(65, 62, 62, 0.801);
     font-size: 22px;
-    float: left;
 }
 
-.cloudDescription {
-    color: rgba(133, 127, 127, 0.979);
+.details__title--security {
+    color: red;
+}
+
+.details__paragraph {
+    color: rgba(117, 112, 112, 0.979);
+}
+
+.details__link {
+    color:rgb(160, 94, 160);
+}
+
+.payment {
+
 }
 
 .paymentPlan {
@@ -35,22 +76,85 @@ body {
     font-size: 32px;
 }
 
-.paymentPlanHeader {
+.subscription {
+    
+}
+
+.subscription__title {
     color: rgba(65, 62, 62, 0.801);
     font-size: 22px;
 }
 
-.paymentPlanDescription {
-    color: rgba(133, 127, 127, 0.979);
+.subscription__paragraph {
+    color: rgba(117, 112, 112, 0.979);
 }
 
-.processGuide {
+.guide {
+
+}
+
+.guide__title {
     color: #1460AA;
     font-size: 32px;
 }
 
-.processGuideDetails {
-    color: rgba(65, 62, 62, 0.801);
-    font-size: 22px;
-    float:left;
+.item {
+
 }
+
+.item__details {
+    color: rgba(65, 62, 62, 0.801);
+    float:left;
+    font-size: 22px;
+}
+
+.start {
+
+}
+
+.start__guide {
+    color: #1460AA;}
+
+.start__paragraph {
+    color: rgba(117, 112, 112, 0.979);
+    font-size: 18px;
+}
+
+.navigation__link {
+    color:rgb(160, 94, 160);
+}
+
+.box {
+    background: purple;
+    border: 10px solid black;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 10px;
+    position: sticky;
+    width: 100px;
+    top: 0px;
+}
+
+.top {
+    bottom: 10px;
+    color: purple;
+    position: fixed;
+    right: 10px;
+    text-decoration: none;
+}
+
+.navigation {
+    background: #fefefe;
+    box-sizing: border-box;
+    left:0;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.navigation a {
+    color: purple;
+    text-decoration: none;
+}
+
